@@ -1,7 +1,10 @@
 # EmmaBot
 Best bot in the world.
 
+Infos about the GetRole/RemoveRole Command:
+-> This command only works with roles lower in the hierarchy(ServerSettings->Roles) than that of the bot. So no worry someone gets an Administrator role by accident.
 
-Credits to different programmers I got inspired by:                                                                                      .
--zekro#9131(membercount in Gamestatus)                                                                                                   .
+
+Credits to different programmers I got inspired by:
+-zekro#9131(membercount in Gamestatus, getrole Command)
 -Vale#5252(LMGTFY command)
