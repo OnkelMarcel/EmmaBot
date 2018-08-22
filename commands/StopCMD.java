@@ -15,7 +15,7 @@ public class StopCMD implements ICommand  {
         if(event.getAuthor().isBot())return;
 
         for(Permission perms : event.getMember().getPermissions()){
-            if(perms == Permission.ADMINISTRATOR || perms == Permission.KICK_MEMBERS || event.getAuthor().getId() == "209413133020823552"){
+            if(perms == Permission.ADMINISTRATOR || perms == Permission.KICK_MEMBERS || event.getAuthor().getId().equalsIgnoreCase("209413133020823552")){
                 event.getChannel().sendMessage("Ich...Ich will noch nicht gehen, aber nichts hält mich noch hier....").queue();
                 try {
                     TimeUnit.SECONDS.sleep(3);
