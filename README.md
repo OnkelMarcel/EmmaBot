@@ -1,7 +1,7 @@
 # EmmaBot
 Best bot in the world.
 
-Many new features and commands will follow soon. This bot version is like an alpha alpha version.
+Many new features will follow soon. This bot version is like an alpha alpha version.
 
 
 Infos about the GetRole/RemoveRole Command:
