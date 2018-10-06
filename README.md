@@ -9,5 +9,5 @@ Infos about the AddRole/RemoveRole Command:
 
 
 Credits to different programmers I got inspired by:
--zekro#9131(membercount in Gamestatus, addrole Command)
+-zekro#9131(addrole Command)
 -Vale#5252(LMGTFY command)
