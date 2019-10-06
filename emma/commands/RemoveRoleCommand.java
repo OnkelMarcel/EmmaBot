@@ -2,11 +2,11 @@ package emma.commands;
 
 import com.github.johnnyjayjay.discord.commandapi.CommandEvent;
 import com.github.johnnyjayjay.discord.commandapi.ICommand;
-import emma.stuff.RoleManager;
+import emma.util.RoleManager;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.TextChannel;
 
-public class RemoveRoleCMD implements ICommand {
+public class RemoveRoleCommand implements ICommand {
 
     @Override
     public void onCommand(CommandEvent e, Member member, TextChannel channel, String[] args) {

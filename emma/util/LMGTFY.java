@@ -1,4 +1,4 @@
-package emma.stuff;
+package emma.util;
 
 import net.dv8tion.jda.core.entities.TextChannel;
 
