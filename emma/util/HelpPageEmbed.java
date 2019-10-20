@@ -1,4 +1,4 @@
-package emma.stuff;
+package emma.util;
 
 import net.dv8tion.jda.core.EmbedBuilder;
 
@@ -10,8 +10,8 @@ public class HelpPageEmbed {
         EmbedBuilder eb = new EmbedBuilder();
         eb.setAuthor("Help page"); //ON THE VERY TOP LIKE A TITLE OF A TITLE
 
-        eb.setDescription("All commands:"); //"FIELD" UNDER THE TITLE
-        eb.addField("Admin", "Commands that only admins/stuff can use:", false);
+        eb.setDescription("All emma.commands:"); //"FIELD" UNDER THE TITLE
+        eb.addField("Admin", "Commands that only admins/emma.util can use:", false);
         eb.addField("stop", "Stops the bot", false); //STOP COMMAND
         eb.addField("Everybody", "Commands that anyone can use:", false);
         eb.addField("help", "Shows this info", false); //HELP COMMAND

@@ -2,11 +2,11 @@ package emma.commands;
 
 import com.github.johnnyjayjay.discord.commandapi.CommandEvent;
 import com.github.johnnyjayjay.discord.commandapi.ICommand;
-import emma.stuff.HelpPageEmbed;
+import emma.util.HelpPageEmbed;
 import net.dv8tion.jda.core.entities.Member;
 import net.dv8tion.jda.core.entities.TextChannel;
 
-public class HelpCMD implements ICommand {
+public class HelpCommand implements ICommand {
 
 
     @Override

@@ -8,7 +8,7 @@ import net.dv8tion.jda.core.entities.TextChannel;
 
 import java.util.concurrent.TimeUnit;
 
-public class StopCMD implements ICommand  {
+public class StopCommand implements ICommand  {
 
     @Override
     public void onCommand(CommandEvent event, Member member, TextChannel channel, String[] args) {
