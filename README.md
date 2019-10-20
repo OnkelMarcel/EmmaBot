@@ -5,9 +5,9 @@ Many new features will follow soon. This bot version is like an alpha alpha vers
 
 
 Infos about the AddRole/RemoveRole Command:
--> This command only works with roles lower in the hierarchy(ServerSettings->Roles) than that of the bot. So no worry someone gets an Administrator role by accident and of course the bot needs the permission to do this.
+-> This command only works with roles positioned lower in the hierarchy(ServerSettings->Roles) than the bots role. So no worries about someone getting admin rights by accident. And of course the bot needs the permission to do this.
 
 
 Credits to different programmers I got inspired by:
--zekro#9131(addrole Command)
+-zekro#9131(addrole Command)\
 -Vale#5252(LMGTFY command)
